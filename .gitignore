@@ -1,0 +1,18 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDEs
+.vscode/
+.idea/
+
+# Large generated files that exceed GitHub limit
+results/full_study/convergence_history.csv
+results/quick_demo/

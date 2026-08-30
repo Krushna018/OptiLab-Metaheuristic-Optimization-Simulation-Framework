@@ -1,0 +1,14 @@
+{
+  "problems": 20,
+  "algorithms": [
+    "GA",
+    "PSO",
+    "DE",
+    "MonteCarlo"
+  ],
+  "trials_per_configuration": 30,
+  "evaluation_budget": 1000,
+  "total_main_runs": 2400,
+  "continuous_problems": 12,
+  "graph_based_problems": 8
+}

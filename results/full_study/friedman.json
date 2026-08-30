@@ -1,0 +1,11 @@
+{
+  "statistic": 54.18000000000001,
+  "p_value": 1.0271333689344054e-11,
+  "algorithms": [
+    "DE",
+    "GA",
+    "MonteCarlo",
+    "PSO"
+  ],
+  "n_problems": 20
+}
