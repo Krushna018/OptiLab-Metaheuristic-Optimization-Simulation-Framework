@@ -14,17 +14,6 @@ It is intentionally broader than a single application: the framework evaluates a
 - **Evaluation:** best objective, convergence trajectory, runtime, variance, per-problem ranks, average ranks, Friedman test, and pairwise Wilcoxon tests with Holm correction.
 - **Reproducibility:** deterministic benchmark instances and seeds; raw run data and convergence histories are saved to CSV.
 
-## Resume-aligned project summary
-
-**OptiLab: Metaheuristic Optimization & Simulation Framework**  
-*Python, Metaheuristics, Monte Carlo, NetworkX*
-
-- Investigated the convergence and robustness of **Genetic Algorithms, Particle Swarm Optimization, Differential Evolution, and Monte Carlo search** across **20 continuous and graph-based optimization problems**, using fixed evaluation budgets and 30 independent trials per configuration to enable controlled comparison of stochastic behavior.
-- Developed a modular experimentation framework in **Python** with configurable population sizes, mutation/crossover strategies, particle dynamics, stopping criteria, and graph constraints; implemented reproducible simulation pipelines for resource-allocation, routing, and numerical optimization scenarios.
-- Conducted **2,400 primary optimization runs** in the default full study and evaluated solution quality, convergence rate, runtime, and variance using statistical summaries and non-parametric significance testing; generated convergence profiles and algorithm rankings to identify performance trade-offs across problem classes.
-
-> The full 2,400-run result files are generated when `scripts/run_full_study.py` is executed. Do not claim completed-run results until that script has actually been run successfully on the target machine.
-
 ## Project layout
 
 ```text
@@ -105,6 +94,3 @@ Outputs include:
 
 Metaheuristic outcomes are stochastic and often non-normal. The framework therefore uses repeated trials and rank-based/non-parametric analyses rather than drawing conclusions from one run or assuming Gaussian result distributions.
 
-## Academic integrity / resume use
-
-The codebase supports the design and evaluation claims above, but anyone listing this work should run the experiments, inspect the outputs, understand the algorithms, and be able to explain the experimental choices. In particular, the phrase “conducted 2,400 runs” should only be used after the full experiment has actually completed.
